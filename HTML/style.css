@@ -3,9 +3,12 @@
   background-color: rgb(207, 207, 207);
   /* This property is used to aligin the text in horizontal direction */
   text-align: center; 
-  text-decoration-line: underline;
+  /* text-decoration-line: underline;
   text-decoration-color: rgb(255, 0, 200);
   text-decoration-style: solid;
+  text-decoration-thickness: 3px; */
+  text-decoration: underline red solid 3px;
+  text-transform: uppercase;
 }
 
 .paragraph{

@@ -22,3 +22,9 @@
   font-size: 28px;
   font-family: 'Dancing Script', cursive;
 }
+
+.box-1{
+  height: 200px;
+  background-color: blueviolet;
+  width: 500px;
+}

@@ -50,8 +50,14 @@
   border-top-color: rebeccapurple;
   border-bottom-color: chartreuse;
   border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .short-border{
   border: 3px solid red;
+  padding: 10px;
+  margin: 25px;
 }

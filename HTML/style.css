@@ -28,3 +28,30 @@
   background-color: blueviolet;
   width: 500px;
 }
+
+.box-2{
+  height: 25vh;
+  width: 50vw;
+  background-color: rgb(0, 253, 169);
+}
+
+.percentage{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+}
+
+.border{
+  border-style: solid;
+  border-width: 2px;
+  /* border-color: blue; */
+  border-left-color: blue;
+  border-right-color: brown;
+  border-top-color: rebeccapurple;
+  border-bottom-color: chartreuse;
+  border-radius: 30px;
+}
+
+.short-border{
+  border: 3px solid red;
+}

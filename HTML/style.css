@@ -68,3 +68,8 @@
   border: 3px solid;
   overflow: auto;
 }
+
+.text{
+  color: rebeccapurple;
+  font-size: 26px;
+}

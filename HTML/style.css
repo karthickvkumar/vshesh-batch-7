@@ -98,6 +98,23 @@
   background-color: blanchedalmond;
 }
 
+.table{
+  border: 3px solid red;
+  border-collapse: collapse;
+}
+
+.space{
+  width: 150px;
+}
+
+.align{
+  text-align: center;
+}
+
+.table-header{
+  background-color: brown;
+  color: aliceblue;
+}
 /* min-width - Starting Resolution
    max-width - Ending Resolution 
 */

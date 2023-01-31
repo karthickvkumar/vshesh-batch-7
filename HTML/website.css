@@ -43,10 +43,39 @@
   border: 3px solid green;
   height: 40%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
 }
 
 .text-content{
   border: 3px solid green;
   height: 60%;
+  box-sizing: border-box;
+}
+
+.circle-image{
+  border: 3px solid red;
+  width: 10%;
+}
+
+.heading-text{
+  border: 3px solid red;
+  width: 75%;
+}
+
+.date{
+  border: 3px solid red;
+  width: 15%;
+}
+
+.head-content{
+  border: 3px solid rgb(0, 255, 183);
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.sub-heading{
+  border: 3px solid rgb(0, 255, 183);ed;
+  height: 50%;
   box-sizing: border-box;
 }

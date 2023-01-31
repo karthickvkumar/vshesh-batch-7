@@ -12,6 +12,9 @@
   height: 35%;
   border: 2px solid red;
   margin: 10px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 
 .container-2{
@@ -24,4 +27,26 @@
   height: 35%;
   border: 2px solid red;
   margin: 10px;
+}
+
+.big-image{
+  border: 3px solid blue;
+  width: 25%;
+}
+
+.content{
+  border: 3px solid blue;
+  width: 75%;
+}
+
+.heading-content{
+  border: 3px solid green;
+  height: 40%;
+  box-sizing: border-box;
+}
+
+.text-content{
+  border: 3px solid green;
+  height: 60%;
+  box-sizing: border-box;
 }

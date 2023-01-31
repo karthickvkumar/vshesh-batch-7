@@ -1,0 +1,27 @@
+.main-layout{
+  height: 98vh;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+}
+
+.root{
+  margin: 0px;
+}
+
+.container-1{
+  height: 35%;
+  border: 2px solid red;
+  margin: 10px;
+}
+
+.container-2{
+  height: 23%;
+  border: 2px solid red;
+  margin: 10px;
+}
+
+.container-3{
+  height: 35%;
+  border: 2px solid red;
+  margin: 10px;
+}

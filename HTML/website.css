@@ -27,6 +27,9 @@
   height: 35%;
   border: 2px solid red;
   margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .big-image{
@@ -77,5 +80,29 @@
 .sub-heading{
   border: 3px solid rgb(0, 255, 183);ed;
   height: 50%;
+  box-sizing: border-box;
+}
+
+.box{
+  border: 3px solid black;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.box-image{
+  border: 3px solid red;
+  height: 60%;
+  box-sizing: border-box;
+}
+
+.box-heading{
+  border: 3px solid red;
+  height: 20%;
+  box-sizing: border-box;
+}
+
+.box-sub-heading{
+  border: 3px solid red;
+  height: 20%;
   box-sizing: border-box;
 }

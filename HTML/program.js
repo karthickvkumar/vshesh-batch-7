@@ -28,3 +28,26 @@ console.log(future_value);
 email_id = "k@outlook.com";
 
 console.log(email_id);
+
+var student_firstname = "mr.abc";
+var student_lastname = "cde";
+var student_regnumber = 45552;
+var student_std = "X";
+
+// Object -> It is a collection of key and value (properties)
+// syntax 
+// var variable_name = {
+//   key1 : value1,
+//   key2 : value2
+// }
+// key -> any valid meaning Text, it should be a-z, A-Z, 0-9, _, $
+// value -> Number, String, Boolean, object, array, function 
+
+var student_information = {
+  firstname : "mr.abc",
+  lastname : "cde",
+  regnumber : 45552,
+  std: "X"
+}
+
+console.log(student_information);

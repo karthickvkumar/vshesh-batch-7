@@ -51,3 +51,11 @@ var student_information = {
 }
 
 console.log(student_information);
+
+// Operations in Objects 
+// 4 -> Read, Edit, Add, Delete
+
+// To Read a value from Object 
+// syntax 
+// object_varible_name.key;
+console.log(student_information.firstname);

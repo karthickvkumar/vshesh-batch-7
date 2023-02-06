@@ -76,3 +76,21 @@ student_information.mobile_number = 87458565263;
 delete student_information.std;
 
 console.log(student_information);
+
+// Array -> It is a collection of value (List of data)
+// syntax 
+// var variable_name = [value1, value2, value3, ... valueN];
+// value -> Number, String, Boolean, object, array, function 
+
+var name_list = ["mr.abc", "mr.csr", "mr.def", "mr.pod", "mr.zxy"];
+
+console.log(name_list);
+
+var list_of_students = [
+  { name: "abc", age: 25 },
+  { name: "bcs", age: 24 },
+  { name: "cde", age: 22 },
+  { name: "zyx", age: 26 }
+];
+
+console.log(list_of_students);

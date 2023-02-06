@@ -94,3 +94,32 @@ var list_of_students = [
 ];
 
 console.log(list_of_students);
+
+// Operations in Array 
+// 4 -> Read, Edit, Add, Delete
+
+// To Read a value from Array 
+// syntax 
+// array_variable_name[index];
+
+console.log(list_of_students[0]);
+
+// To Edit an exisiting value from an Array 
+// syntax 
+// array_variable_name[index] = new Value
+
+list_of_students[3] = { name: "karthick", age: 28 };
+
+// To Add new value into Array 
+// syntax 
+// array_variable_name.push(value1, value2);
+
+list_of_students.push({name: "smith", age : 30});
+
+// syntax 
+// array_variable_name.unshift(value1, value2);
+
+list_of_students.unshift({name: "zyan", age: 20});
+
+
+console.log(list_of_students);

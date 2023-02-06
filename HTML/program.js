@@ -59,3 +59,20 @@ console.log(student_information);
 // syntax 
 // object_varible_name.key;
 console.log(student_information.firstname);
+
+// To Edit a particular existing value from Object
+// syntax
+// object_variable_name.key = new value;
+student_information.lastname = "karthick";
+
+// To Add new value into Object 
+// syntax
+// object_variable_name.newKey = Value;
+student_information.mobile_number = 87458565263;
+
+// To Delete an exiting value from an Object 
+// syntax 
+// delete object_variable_name.key
+delete student_information.std;
+
+console.log(student_information);

@@ -144,3 +144,25 @@ function welcome_message(){
   var message = "Hello everyone! GOod Morning";
   alert(message);
 }
+
+// Operators 
+// 1. Arithmetic Operators +, -, *, / , %, ++, --
+// 2. Assignemnt Operators = 
+// 3. Comparisoin Operators < (less than), <= (less than or equal to), > (greater than), >= (greater than or equal to), ==, !=, ===, !== 
+// 4. Logical Operators && (AND), || (OR), ! (NOT)
+
+// && - AND
+// true && true = true 
+// false && true = false
+// true && false = false
+// false && false = false 
+
+// || - OR
+// true || true = true 
+// false || true = true 
+// true || false = true 
+// false || false = false 
+
+// ! - NOT 
+// !true = false 
+// !false = true 

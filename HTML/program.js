@@ -108,7 +108,7 @@ console.log(list_of_students[0]);
 // syntax 
 // array_variable_name[index] = new Value
 
-list_of_students[3] = { name: "karthick", age: 28 };
+list_of_students[3] = { name: undefined, age: undefined };
 
 // To Add new value into Array 
 // syntax 
@@ -122,4 +122,25 @@ list_of_students.push({name: "smith", age : 30});
 list_of_students.unshift({name: "zyan", age: 20});
 
 
+// To Delete a value from Array
+// syntax 
+// array_variable_name.splice(startIndex, deleteCount);
+// startIndex - The start position of record index 
+// deleteCount - How many record do you delete
+
+list_of_students.splice(2, 1);
+
 console.log(list_of_students);
+
+// Function -> Block of code 
+// syntax 
+// function function_name(){
+//   code logic
+// }
+
+// function_name -> valid meaningful text, it should refer the code logic. It should accept a-z, A-Z, 0-9, _, $
+
+function welcome_message(){
+  var message = "Hello everyone! GOod Morning";
+  alert(message);
+}

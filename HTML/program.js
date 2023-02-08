@@ -166,3 +166,28 @@ function welcome_message(){
 // ! - NOT 
 // !true = false 
 // !false = true 
+
+// If - Else condition 
+// syntax 
+// if(condition){
+//   code block
+// }
+// else{
+//   code block
+// }
+
+// Problem : To evaluate given user age is eligible for Vote ?
+// Solution :
+// 1. I should pass a Number as Input (Variable assign the value)
+// 2. If the Number is greater then or equal to 18 -> The user is eligible for vote 
+// 3. If the Number is less then 18 -> The user is Not eligible for vote
+
+function check_voting_status(){
+  var age = prompt("Enter a user age");
+  if(age >= 18){
+    alert("The user is eligible for vote");
+  }
+  else{
+    alert("The user is Not eligible for vote");
+  }
+}

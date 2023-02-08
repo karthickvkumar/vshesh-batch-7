@@ -191,3 +191,34 @@ function check_voting_status(){
     alert("The user is Not eligible for vote");
   }
 }
+
+// Multiple IF Else 
+// syntax 
+// if(condition1){
+
+// }
+// else if(condition2){
+
+// }
+// else{
+
+// }
+
+// Problem: To find the given user age catgerory 
+// criteria for age catgerory
+// 1. Age is less then 18 -> The user is Minor catgerory
+// 2. Age is greater then or equal to 18 and less then 60 -> The user is Major catgerory
+// 3. Age is above 60 -> The user is senior catgerory
+
+function check_user_age_catgory(){
+  var age = prompt("Enter user age");
+  if(age < 18){
+    alert("The user is Minor catgerory");
+  }
+  else if(age >= 18 && age < 60){
+    alert("The user is Major catgerory");
+  }
+  else{
+    alert("The user is senior catgerory");
+  }
+}

@@ -222,3 +222,28 @@ function check_user_age_catgory(){
     alert("The user is senior catgerory");
   }
 }
+
+// for - Loop 
+// syntax 
+// for(initialization; condition; increment/decrement){
+
+// }
+
+for(var count = 1; count <= 10; count++){
+  console.log("Loop is running on count", count);
+}
+
+// Problem: To find even numbers for given N number of limit
+// solution: 
+// 1. To provide a input number 
+// 2. Formula -> number % 2 === 0 -> Even Number 
+// 3. Using loop for repeating the formula 
+
+function find_even_numbers(){
+  var lastNumber = prompt("Enter a last number");
+  for(var count = 0; count <= lastNumber; count++){
+    if(count % 2 === 0){
+      console.log(count, "is a Even Number");
+    }
+  }
+}

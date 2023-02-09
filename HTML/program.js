@@ -276,7 +276,8 @@ function whileLoop(){
 // }
 
 function find_weekday(){
-  var day = prompt("Enter a number from 0 to 6");
+  var value = prompt("Enter a number from 0 to 6");
+  var day = parseInt(value);
   switch(day){
     case 0:
       console.log("Its Sunday");

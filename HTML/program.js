@@ -247,3 +247,59 @@ function find_even_numbers(){
     }
   }
 }
+
+// While - Loop
+// syntax 
+// while(condition){
+
+// }
+
+function whileLoop(){
+  var count = 1;
+  while(count <= 5){
+    console.log("While loop count", count);
+    count++;
+  }
+}
+
+// Switch Case 
+// syntax 
+// switch(expression){
+//   case expression1 :
+//     code logic 
+//     break;
+//   case expression2 :
+//     code logic
+//     break;
+//   default:
+//     code logic 
+// }
+
+function find_weekday(){
+  var day = prompt("Enter a number from 0 to 6");
+  switch(day){
+    case 0:
+      console.log("Its Sunday");
+      break;
+    case 1:
+      console.log("Its Monday");
+      break;
+    case 2:
+      console.log("Its Tuesday");
+      break;
+    case 3:
+      console.log("Its Wednesday");
+      break;
+    case 4:
+      console.log("Its Thursday");
+      break;
+    case 5:
+      console.log("Its Friday");
+      break;
+    case 6:
+      console.log("Its Saturday");
+      break;
+    default:
+      console.log("Wrong input, pls enter number from 0 to 6");
+  }
+}

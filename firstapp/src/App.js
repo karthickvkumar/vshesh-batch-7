@@ -5,6 +5,8 @@ import HomePage from "./pages/home";
 import ContactPage from "./pages/contact";
 import AboutPage from "./pages/about";
 
+import "./css/style.css";
+
 const App = () => {
   return(
     <BrowserRouter>

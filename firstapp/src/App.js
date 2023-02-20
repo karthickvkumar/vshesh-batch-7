@@ -1,14 +1,19 @@
 import React from "react";
-import HeaderComponent from "./components/header";
-import FooterComponent from "./components/footer";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+
+import HomePage from "./pages/home";
+import ContactPage from "./pages/contact";
+import AboutPage from "./pages/about";
 
 const App = () => {
   return(
-    <div>
-      <HeaderComponent></HeaderComponent>
-      <h1>Good Morning!</h1>
-      <FooterComponent></FooterComponent>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="" element={<HomePage></HomePage>}></Route>
+        <Route path="about" element={<AboutPage></AboutPage>}></Route>
+        <Route path="contact" element={<ContactPage></ContactPage>}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -25,7 +25,16 @@
 }
 
 .logo-img{
-  width: 55%;
+  width: 38%;
   margin-left: 25px;
   margin-top: 6px;
+}
+
+.lable{
+  display: inline-block;
+  width: 18%;
+}
+
+.space{
+  margin-bottom: 10px;
 }

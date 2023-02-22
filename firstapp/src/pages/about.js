@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import HeaderComponent from "../components/header";
+import axios from "axios";
 
 const AboutPage = () => {
 
@@ -13,7 +14,19 @@ const AboutPage = () => {
   }
 
   const CreateAccount = () => {
-    console.log(profile);
+
+    const url = "https://reqres.in/api/users";
+
+    axios.post(url, profile)
+      .then((response) => {
+        const serverResult = response.data;
+        console.log(serverResult);
+        alert('Profile has been created');
+      })
+      .catch((error) => {
+        console.log(error);
+        alert('Somethings went pls try again later');
+      })
   }
 
   return(

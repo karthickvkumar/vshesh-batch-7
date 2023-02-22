@@ -55,8 +55,8 @@ const ContactPage = () => {
         </div>
         <div className="space">
           <label className="lable">Select your Education :</label>
-          <select onChange={handleInput} name="education">
-            <option disabled selected>Select any value</option>9
+          <select onChange={handleInput} name="education" defaultValue={""}>
+            <option disabled value="">Select any value</option>
             <option>B.E Compter Science</option>
             <option>B.E Mechanical</option>
             <option>B.Tech IT</option>

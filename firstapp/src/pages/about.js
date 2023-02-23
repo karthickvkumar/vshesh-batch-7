@@ -29,6 +29,21 @@ const AboutPage = () => {
       })
   }
 
+  const UpdateAccount = () => {
+    const url = "https://reqres.in/api/users/2";
+
+    axios.put(url, profile)
+      .then((response) => {
+        const serverData = response.data;
+        console.log(serverData);
+        alert('Profile has been updated successfully');
+      })
+      .catch((error) => {
+        console.log(error);
+        alert('Somethings went pls try again later');
+      })
+  }
+
   return(
     <div>
       <HeaderComponent></HeaderComponent>
@@ -44,6 +59,7 @@ const AboutPage = () => {
         </div>
         <div className="space">
           <button onClick={() => CreateAccount()}>Submit Profile</button>
+          <button onClick={() => UpdateAccount()}>Update Profile</button>
         </div>
       </div>
     </div>
